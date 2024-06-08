@@ -7,12 +7,12 @@ The main purpose of this project is to verify the remote parameter server scheme
 - In the optimizer, according to the name bound by the weight and the row number of the first dimension of the embedding that needs to update the gradient, the weight on the remote parameter server is updated
 - The weight in the embedding can be distributed across multiple parameter server nodes according to the first dimension
 ## Test demo
-Python >= 3.9
-Pytorch >= 2.2
+Python >= 3.9  
+Pytorch >= 2.2  
 `
 python3 test_hash_embedding.py
-`
-Translated by https://doubao.com
+`  
+[ Translated by https://doubao.com ]
 
 
 # torch-ps
@@ -26,8 +26,8 @@ Translated by https://doubao.com
 - embedding中的weight可以按第一维分布在多个parameter server 节点上
 
 ## 测试demo
-python >= 3.9
-pytorch >= 2.2
+python >= 3.9  
+pytorch >= 2.2  
 `
 python3 test_hash_embedding.py
 `
